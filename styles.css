@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: brown;
+}
+
+.event-details {
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sponsors img {
+    width: 100px;
+    margin: 10px;
+}
